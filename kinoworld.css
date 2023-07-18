@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500&display=swap');
+
+
+body{
+    width: 100%;
+    height: 100vh;
+    background: url(body-bg.jpg) center no-repeat;
+    background-size: cover; 
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h3{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.singin{
+    width: 30%;
+
+    padding: 30px;
+
+    border: 3px solid white;
+    border-radius: 30px;
+}
